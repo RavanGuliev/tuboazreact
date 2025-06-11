@@ -1,5 +1,5 @@
 
-function header() {
+function Header() {
   return (
  <header className="flex   flex-col  bg-[#fff]  w-full  ">
         <div className="flex flex-row items-center justify-evenly w-full mx-auto px-[30px] h-[40px] text-[#8d94ad]   ">
@@ -155,4 +155,4 @@ function header() {
     </header>  )
 }
 
-export default header
+export default Header

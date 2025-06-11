@@ -1,4 +1,4 @@
-import header from "./assets/components/header"
+import Header from "./assets/components/Header"
 import Main from "./assets/components/Main"
 
 
@@ -8,8 +8,8 @@ function App() {
 
   return (
    <>
-   { header() }
-   {Main()}
+   <Header />
+   <Main />
    
    
    </>
