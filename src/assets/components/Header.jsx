@@ -1,6 +1,7 @@
-function Header() {
+
+function header() {
   return (
-  <header className="flex   flex-col  bg-[#fff]  w-full  ">
+ <header className="flex   flex-col  bg-[#fff]  w-full  ">
         <div className="flex flex-row items-center justify-evenly w-full mx-auto px-[30px] h-[40px] text-[#8d94ad]   ">
             <div className="flex flex-row gap-[20px]">
                 <span className="hover:text-red-500">Tap.az</span>
@@ -151,10 +152,7 @@ function Header() {
             </div>
         </div>
     </div>
-    </header>
-
-    
-  )
+    </header>  )
 }
 
-export default Header
+export default header
